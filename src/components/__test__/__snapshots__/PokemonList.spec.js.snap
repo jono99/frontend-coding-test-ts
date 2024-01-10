@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Pokemon Service > fetchPokemon > make a GET request to fetch Pokemon 1`] = `
+"<div class="mb-5"><select id="pokemon" name="pokemon" class="mt-1.5 w-1/4 rounded-lg border-gray-300 text-gray-700 sm:text-sm">
+    <option disabled="" class="pokemon-item" value=""> Select a pokemon </option>
+  </select></div>"
+`;
+
+exports[`PokemonList > renders 1`] = `
+"<div class="mb-5"><select id="pokemon" name="pokemon" class="mt-1.5 w-1/4 rounded-lg border-gray-300 text-gray-700 sm:text-sm">
+    <option disabled="" class="pokemon-item" value=""> Select a pokemon </option>
+  </select></div>"
+`;

@@ -20,6 +20,8 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
+
     // Adding typescript file types, because airbnb doesn't allow this by default.
     'import/extensions': [
       'error',
